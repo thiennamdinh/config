@@ -1,0 +1,25 @@
+;; setup package manager
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (add-to-list
+   'package-archives
+   '("melpa" . "http://melpa.org/packages/")
+   t)
+  (package-initialize))
+
+
+(load-theme 'deeper-blue t) ; load theme
+(setq inhibit-startup-screent t) ; hide startup screen
+(setq inhibit-splash-screen t) ; hide welcome screen
+(setq c-basic-offset 4) ; indents 4 chars
+(setq tab-width 4) ; indent 4 char wide for TAB
+(when window-system (set-frame-size (selected-frame) 140 40)) ; initial frame size
+
+;; create shortcuts function
+
+(defun fav-commands () (interactive)
+       (split-window-right -25)
+;       (other-window)
+					;       (switch-to-buffer (find-file-noselect "fav-commands.txt"))
+       (find-file "fav-commands.txt")
+)

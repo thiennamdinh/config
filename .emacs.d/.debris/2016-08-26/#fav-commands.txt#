@@ -1,0 +1,32 @@
+// Input Commands
+Input Command	: M-x [command]
+
+// File
+Exit		: C-x C-c
+Save		: C-x C-s
+Open File	: C-x C-f
+
+// Windows
+Next Window	: C-x o
+Close Window	: C-x 0
+Split T/B	: C-x 2
+Split L/R	: C-x 3
+
+// Buffers
+View Buffers	: C-x C-b
+Select/Create	: C-x b [buffer] RET
+Cycle Left	: C-x LEFT
+Cycle Right	: C-x RIGHT
+
+// Control
+Undo		: C-x u
+Quit Command	: C-g
+
+// Kill/Yank
+Mark Select	: C-space
+Kill line	: C-k
+Kill selection	: C-w
+Copy selection	: M-w
+Yank	   	: C-y
+
+// Search

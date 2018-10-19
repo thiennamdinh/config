@@ -1,0 +1,44 @@
+;; -*- emacs-lisp -*- <17/11/28 16:11:05 /home/thien-nam/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" "thien-nam" "168.7.116.9" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 4.4.0-96-generic")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("~" "/home/thien-nam")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("gid-string" "thien-nam")
+  ("readlink" "\\readlink"))
+ (["scp" "thien-nam" "168.7.116.9" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 4.4.0-96-generic")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 1000)
+  ("file-exists" "test -e")
+  ("stat" "\\stat")
+  ("gid-string" "thien-nam")
+  ("readlink" "\\readlink")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("~" "/home/thien-nam")
+  ("git" "\\git")
+  ("uid-integer" 1000)
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)))

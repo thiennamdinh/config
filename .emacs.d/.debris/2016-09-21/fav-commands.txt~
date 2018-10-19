@@ -1,0 +1,42 @@
+// Input Commands
+Input Command	: M-x [command]
+
+// File
+Exit		: C-x C-c
+Save		: C-x C-s
+Open File	: C-x C-f
+
+// Windows
+Next Window	: C-x o
+Close Window	: C-x 0
+Split T/B	: C-x 2
+Split L/R	: C-x 3
+
+// Buffers
+View Buffers	: C-x C-b
+Select/Create	: C-x b [buffer] RET
+Cycle Left	: C-x LEFT
+Cycle Right	: C-x RIGHT
+Kill Buffer	: C-x k [buffer] RET
+
+// Control
+Undo		: C-/
+Quit Command	: C-g
+
+// Kill/Yank
+Mark Select	: C-space
+Kill line	: C-Sh-Bksp
+Kill Selection	: C-w
+Copy Selection	: M-w
+Yank	   	: C-y
+
+// Search
+Forward Search	: C-s
+Backward Search	: C-r
+Replace	 	: M-% string Ret newstring Ret
+
+//Navigate
+Start of Line	: C-a
+End of Line	: C-e
+Start of File	: ESC <
+End of File	: ESC >

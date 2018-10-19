@@ -1,0 +1,15 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".outsideonline.com"
+  [url-cookie "__cfduid" "da939d9e1a9059157deb28277cd5cd1d51476473822" "14 Oct 17 19:37:02 [GMT]" "/" ".outsideonline.com" nil]
+  [url-cookie "HttpOnly" nil "14 Oct 17 19:37:02 [GMT]" "/" ".outsideonline.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
